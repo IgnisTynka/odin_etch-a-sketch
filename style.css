@@ -36,8 +36,48 @@ section{
 
 .options{
     height: 600px;
-    width: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#color{
+    border: none;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+}
+
+.size{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sizeValue{
+    width: 100px;
+    height: 40px;
+    color: aliceblue;
+    background: none;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 14pt;
+    background-color: #FDF0D5;
+    border-color: #A99985;
+}
+
+
 
 .container{
     background-color: #C1121F;
@@ -52,8 +92,6 @@ section{
 }
 
 .field{
-    width: 37.5px;
-    height: 37.5px;
     background-color: #FDF0D5;
 }
 
